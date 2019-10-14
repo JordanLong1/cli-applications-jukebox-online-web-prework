@@ -64,6 +64,7 @@ while user_input !=  "exit"
     user_input = gets.strip
   when "exit"
     puts "I accept the following commands:"
+    user_input = gets.strip
   else
    puts "Invalid input, please try again"
    user_input = gets.strip
