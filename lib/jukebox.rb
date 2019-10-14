@@ -49,7 +49,7 @@ def run(songs)
 puts "Please enter a command:"
 user_input = gets.strip
 while user_input !=  "exit"
-  puts "I accept the following commands:"
+  puts "Please enter a command:"
   case user_input
   when "help"
     help
