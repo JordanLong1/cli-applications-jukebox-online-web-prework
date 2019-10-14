@@ -65,6 +65,7 @@ while user_input != to "exit"
   else
    puts "Invalid input, please try again"
    user_input = gets.strip
+    end
   end
   exit_jukebox
 end
