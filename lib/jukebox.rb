@@ -62,10 +62,7 @@ while user_input !=  "exit"
     play(songs)
     puts "Please enter a command:"
     user_input = gets.strip
-  when "exit"
-    puts "I accept the following commands:"
-    user_input = gets.strip
-  else
+    else
    puts "Invalid input, please try again"
    user_input = gets.strip
     end
