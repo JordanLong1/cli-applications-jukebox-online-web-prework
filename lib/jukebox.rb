@@ -49,5 +49,8 @@ puts "Please enter a command:"
 user_input = gets.strip
 if user_input != to "exit"
   case user_input
+  when "help"
+    puts "Please enter a command:"
+
 
 end
