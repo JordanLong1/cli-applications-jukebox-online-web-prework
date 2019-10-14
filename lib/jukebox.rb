@@ -47,24 +47,24 @@ end
 def run(songs)
   help
 puts "Please enter a command:"
-user_input = gets.chomp
+user_input = gets.strip
 while user_input != to "exit"
   case user_input
   when "help"
     help
     puts "Please enter a command:"
-    user_input = gets.chomp
+    user_input = gets.strip
   when "list"
     list(songs)
     puts "Please enter a command:"
-    user_input = gets.chomp
+    user_input = gets.strip
   when "play"
     play(songs)
     puts "Please enter a command:"
-    user_input = gets.chomp
+    user_input = gets.strip
   else
    puts "Invalid input, please try again"
-   user_input = gets.chomp
+   user_input = gets.strip
     end
   end
   exit_jukebox
